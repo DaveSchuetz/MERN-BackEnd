@@ -2,6 +2,7 @@ const express = require('express')
 const parser = require('body-parser')
 const cors = require('cors')
 const methodOverride = require('method-override')
+const Todo = require('./db/todo')
 
 const app = express()
 app.use(methodOverride('_method'))
